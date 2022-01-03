@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  border-style: solid;
+  border-width: 0;
+}
+.navbar-component {
+  width: 100%;
+  height: 99.84px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: rgb (255, 255, 255);
+  border-color: rgb(229, 229, 229);
+  border-style: solid;
+  position: fixed;
+  z-index: 99999999;
+  top: 0px;
+}
+.navbar-image {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 100%;
+  margin: 0px;
+}
+.navbar-header {
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  margin: auto 0px;
+  width: 100%;
+}
+.navbar-home {
+  vertical-align: baseline;
+  color: rgb(102, 102, 102);
+  font-family: muli, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0px 20px;
+}
+a {
+  background-color: transparent;
+}
+body {
+  min-height: 100%;
+  position: relative;
+  font-feature-settings: "kern";
+}
+html {
+  padding: 0;
+  margin: 0;
+}
+.navbar-dentist {
+  vertical-align: baseline;
+  color: rgb(102, 102, 102);
+  font-family: muli, sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0px 20px;
+}
+img {
+  width: 118px;
+  height: 40px;
+}
