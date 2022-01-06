@@ -1,9 +1,11 @@
 import img1 from "../images/snapsmilelogo.png";
-function header() {
+function Navbar() {
   return (
-    <div class="navbar-component">
-      <div class="navbar-image">
-        <img src={img1} alt="" />
+    <div class="navbar-container">
+      <div class="navbar-component">
+        <div class="navbar-image">
+          <img src={img1} class="img1" alt=""></img>
+        </div>
         <div class="navbar-header">
           <a class="navbar-home"> Home</a>
           <a class="navbar-dentist"> For Dentists</a>
@@ -12,4 +14,4 @@ function header() {
     </div>
   );
 }
-export default header;
+export default Navbar;

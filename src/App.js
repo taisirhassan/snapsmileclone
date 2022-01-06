@@ -1,11 +1,13 @@
 import "./styles/main.scss";
 import "./App.css";
-import Header from "./components/header";
+import Navbar from "./components/navbar";
+import Container from "./components/maincontainer";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Navbar />
+      <Container />
     </div>
   );
 }
