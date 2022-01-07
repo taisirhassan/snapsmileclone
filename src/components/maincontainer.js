@@ -1,5 +1,4 @@
 import img2 from "../images/girl-texting.png";
-import img3 from "../images/Download_on_the_App_Store_Badge.png";
 function Container() {
   return (
     <div class="background">
@@ -19,7 +18,7 @@ function Container() {
               <div class="download-app-container">
                 <a href="https://apps.apple.com/us/app/snapsmile/id1594653804">
                   <img
-                    src={img3}
+                    src="https://www.snapsmile.ai/_next/image?url=%2Fimages%2Findex%2Fdownload-on-app-store.png&w=256&q=75"
                     class="img3"
                     alt="Download on App Store"
                   ></img>
