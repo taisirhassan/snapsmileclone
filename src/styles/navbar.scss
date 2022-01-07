@@ -46,6 +46,12 @@
   cursor: pointer;
   margin: 0px 20px;
 }
+.navbar-home:hover {
+  color: rgb(0, 119, 255);
+}
+.navbar-dentist:hover {
+  color: rgb(0, 162, 255);
+}
 a {
   background-color: transparent;
 }
